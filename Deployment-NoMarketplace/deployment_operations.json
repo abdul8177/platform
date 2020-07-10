@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/43782ff8-7026-40c7-bd2a-8dbb84a3a0ee/resourceGroups/platform/providers/Microsoft.Resources/deployments/NoMarketplace/operations/6DC5601EF8DCD4D8",
+    "operationId": "6DC5601EF8DCD4D8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-07-06T04:26:54.4061165Z",
+      "duration": "PT56.9414925S",
+      "trackingId": "59fe55d6-331a-482c-b74f-9e8ab5ec37a7",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/43782ff8-7026-40c7-bd2a-8dbb84a3a0ee/resourceGroups/platform/providers/Microsoft.EventHub/namespaces/twittertweet",
+        "resourceType": "Microsoft.EventHub/namespaces",
+        "resourceName": "twittertweet"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/43782ff8-7026-40c7-bd2a-8dbb84a3a0ee/resourceGroups/platform/providers/Microsoft.Resources/deployments/NoMarketplace/operations/08586075973329551640",
+    "operationId": "08586075973329551640",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2020-07-06T04:26:54.486912Z",
+      "duration": "PT0.0385749S",
+      "trackingId": "1fb1ab47-3f93-4883-8d08-86f57e0d6846",
+      "statusCode": "OK",
+      "statusMessage": null
+    }
+  }
+]

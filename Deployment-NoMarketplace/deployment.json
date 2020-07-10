@@ -1,0 +1,78 @@
+{
+  "id": "/subscriptions/43782ff8-7026-40c7-bd2a-8dbb84a3a0ee/resourceGroups/platform/providers/Microsoft.Resources/deployments/NoMarketplace",
+  "name": "NoMarketplace",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/43782ff8-7026-40c7-bd2a-8dbb84a3a0ee/resourceGroups/platform/providers/Microsoft.EventHub/namespaces/twittertweet",
+    "marketplaceItemId": ""
+  },
+  "properties": {
+    "templateHash": "2945914478086805415",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "twittertweet"
+      },
+      "location": {
+        "type": "String",
+        "value": "eastus"
+      },
+      "skuName": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "skuTier": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "skuCapacity": {
+        "type": "String",
+        "value": "1"
+      },
+      "isAutoInflateEnabled": {
+        "type": "String",
+        "value": "false"
+      },
+      "maximumThroughputUnits": {
+        "type": "String",
+        "value": "0"
+      },
+      "zoneRedundant": {
+        "type": "Bool",
+        "value": false
+      },
+      "tags": {
+        "type": "Object",
+        "value": {}
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2020-07-06T04:26:54.514538Z",
+    "duration": "PT1M1.9920773S",
+    "correlationId": "9eeaaef0-a5f7-4fd4-a2df-b6460c33e30e",
+    "providers": [
+      {
+        "namespace": "Microsoft.EventHub",
+        "resourceTypes": [
+          {
+            "resourceType": "namespaces",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/43782ff8-7026-40c7-bd2a-8dbb84a3a0ee/resourceGroups/platform/providers/Microsoft.EventHub/namespaces/twittertweet"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

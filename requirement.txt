@@ -1,0 +1,6 @@
+pandas
+tweepy
+azure-eventhub
+azure-eventhub-checkpointstoreblob-aio
+azure-storage-blob
+avro-python3
